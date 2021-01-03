@@ -15,7 +15,7 @@ public class tc1 {
 		public void launch() {
 		  ChromeOptions co = new ChromeOptions();
    		  co.setHeadless(true);
-		  System.setProperty("webdriver.chrome.driver","chromedriver");
+		  System.setProperty("webdriver.chrome.driver","/home/jenkins/jenkins_home/selenium_driver/chromedriver");
 		  driver = new ChromeDriver(co);
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
