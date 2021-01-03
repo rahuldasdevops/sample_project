@@ -28,7 +28,7 @@ node{
 
 
 stage('Deployment') {
-            // Deployment
+            // Deploymenty
                 script {
                     echo "deployment"
                     sh 'cp /var/lib/jenkins/workspace/package_1/target/addressbook.war /var/lib/tomcat8/webapps/'
