@@ -31,7 +31,7 @@ stage('Deployment') {
             // Deploymenty
                 script {
                     echo "deployment"
-                    sh 'cp /var/lib/jenkins/workspace/package_1/target/addressbook.war /var/lib/tomcat8/webapps/'
+                    sh 'cp /var/lib/jenkins/workspace/package_/target/addressbook.war /var/lib/tomcat8/webapps/'
             }
         }
         stage('publish html report') {
